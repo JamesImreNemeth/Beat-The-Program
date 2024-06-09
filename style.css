@@ -1,0 +1,85 @@
+@font-face {
+    font-family: digital;
+    src: url(digital.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: digital ,'Trebuchet MS', Arial, sans-serif;
+    color: rgb(3, 209, 3);
+       
+}
+
+body{
+    background-image: url(martix.gif);
+    background-color: transparent; 
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 5rem;
+    text-decoration: underline;
+    animation: blink-underline 1s infinite; /* Apply the animation */
+}
+
+button{
+    padding: 15px 25px;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+input{  
+    color: rgb(3, 209, 3);
+    border: 1px solid white;
+    margin: 10px 15px;
+    font-size: 1.3rem;
+    background-color: transparent;
+}
+
+@keyframes blink-underline {
+    0% {
+        text-decoration-color: rgb(3, 209, 3); /* Initial underline color */
+    }
+    50% {
+        text-decoration-color: transparent; /* Halfway point, underline invisible */
+    }
+    100% {
+        text-decoration-color: rgb(3, 209, 3); /* End point, underline visible */
+    }
+}
+
+.codes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: red;
+}
+
+.codes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 150px;
+}
+
+input[type="text"] {
+    padding: 15px; /* Increase padding */
+    font-size: 1.8rem; /* Increase font size */
+    width: 300px; /* Increase width */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
