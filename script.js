@@ -1,11 +1,11 @@
 // JavaScript code
 const correctCodes = {
-    inputOne: "123456",
-    inputTwo: "654321",
-    inputThree: "987654",
-    inputFour: "456789",
-    inputFive: "135792",
-    inputSix: "246810"
+    inputOne: "482759",
+    inputTwo: "913264",
+    inputThree: "507138",
+    inputFour: "624871",
+    inputFive: "398405",
+    inputSix: "408239"
 };
 
 // Function to generate a random six-digit code
@@ -28,7 +28,7 @@ function checkAllInputsCorrect() {
     console.log("All inputs correct:", allInputsCorrect); // Log the result to the console
 
     if (allInputsCorrect) {
-        document.body.style.backgroundImage = "url('baby.gif')"; // Change background image
+        document.body.style.backgroundImage = "url('me.gif')"; // Change background image
     }
 }
 

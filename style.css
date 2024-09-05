@@ -14,7 +14,7 @@
 
 body{
     background-image: url(martix.gif);
-    background-color: transparent; 
+    background-color: black; 
     background-position: center;
 }
 
@@ -26,12 +26,16 @@ h1{
     animation: blink-underline 1s infinite; /* Apply the animation */
 }
 
+p{
+    background-color: black;
+}
+
 button{
     padding: 15px 25px;
     border: 2px solid white;
     font-size: 1.5rem;
     margin-top: 15px;
-    background-color: transparent;
+    background-color: black;
 }
 
 input{  
@@ -39,7 +43,7 @@ input{
     border: 1px solid white;
     margin: 10px 15px;
     font-size: 1.3rem;
-    background-color: transparent;
+    background-color: black;
 }
 
 @keyframes blink-underline {
